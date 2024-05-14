@@ -4,9 +4,15 @@
   "description": "",
   "scripts": {
     "db:generate": "prisma generate",
-    "db:push": "prisma db push --skip-generate"
+    "db:migrate": "prisma migrate deploy"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "prisma": "5.13.0"
+  },
+  "dependencies": {
+    "@prisma/client": "5.13.0"
+  }
 }
