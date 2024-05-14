@@ -8,8 +8,12 @@
     "start": "next start",
     "lint": "eslint . --max-warnings 0"
   },
+  "packageManager": "pnpm@8.9.0",
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
-    "@turbo-next-prisma/prisma": "^workspace:*",
+    "database": "workspace:*",
     "@repo/ui": "workspace:*",
     "next": "^14.1.1",
     "react": "^18.2.0",
