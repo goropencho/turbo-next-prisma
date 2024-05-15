@@ -8,6 +8,10 @@
     "start": "next start",
     "lint": "eslint . --max-warnings 0"
   },
+  "packageManager": "pnpm@9.1.0",
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "@repo/ui": "workspace:*",
     "next": "^14.1.1",
